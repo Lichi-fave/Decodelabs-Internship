@@ -154,6 +154,8 @@ ssh -i ~/myVirtualMachine_key.pem azureuser@<public-ip-address>
 
 This provided secure remote administrative access to the server.
 
+---
+
 ### Live Project
 
 Server IP: [http://102.37.130.227/]
