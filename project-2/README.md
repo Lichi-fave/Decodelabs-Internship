@@ -50,7 +50,6 @@ sudo systemctl enable nginx
 - Edited `index.html` using nano
 - Deployed custom "Welcome to DecodeLabs" page
 
-```markdown
 ### Screenshots
 
 **Azure VM Running:**
@@ -64,7 +63,6 @@ sudo systemctl enable nginx
 **Live Webpage:**
 
 ![Live Page](project-2/live webpage .png)
-```
 
 ---
 
