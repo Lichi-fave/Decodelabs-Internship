@@ -16,12 +16,12 @@ Each project lives in its own folder with a dedicated README, source files, and 
 
 ## Projects
 
-| #   | Project                                           | Description                                                                                    | Status      |
-| --- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------- |
-| 1   | [Static Website Deployment on Azure](./project-1) | Deployed a live portfolio website on Azure Blob Storage with CI/CD via GitHub Actions          | Completed   |
-| 2   | [Linux VM & Web Server Provisioning](./project-2) | Provisioned an Ubuntu VM on Azure, configured SSH access, and deployed a live Nginx web server | Completed   |
-| 3   | Coming Soon                                       | —                                                                                              | In Progress |
-| 4   | Coming Soon                                       | —                                                                                              | Upcoming    |
+| #   | Project                                                     | Description                                                                                                                                                | Status    |
+| --- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| 1   | [Static Website Deployment on Azure](./project-1)           | Deployed a live portfolio website on Azure Blob Storage with CI/CD via GitHub Actions                                                                      | Completed |
+| 2   | [Linux VM & Web Server Provisioning](./project-2)           | Provisioned an Ubuntu VM on Azure, configured SSH access, and deployed a live Nginx web server                                                             | Completed |
+| 3   | [The Data Warehouse — Cloud Database on Azure](./project-3) | Provisioned a managed Azure MySQL Flexible Server, designed a relational schema, connected via VS Code & Python, and applied cloud security best practices | Completed |
+| 4   | Coming Soon                                                 | —                                                                                                                                                          | Upcoming  |
 
 ---
 
@@ -32,7 +32,8 @@ Each project lives in its own folder with a dedicated README, source files, and 
 - **Web Server:** Nginx
 - **Automation:** GitHub Actions (CI/CD)
 - **Version Control:** Git & GitHub
-- **Languages:** HTML, CSS, Bash/CLI
+- **Database:** Azure Database for MySQL Flexible Server, PyMySQL
+- **Languages:** HTML, CSS, Bash/CLI, Python, SQL
 - **Auth & Security:** SSH Key-based Authentication
 
 ---
@@ -41,6 +42,7 @@ Each project lives in its own folder with a dedicated README, source files, and 
 
 - **Project 1 — Portfolio Site:** [https://lulupfolio.z1.web.core.windows.net](https://lulupfolio.z1.web.core.windows.net)
 - **Project 2 — Nginx Web Server:** Accessible via Azure VM Public IP (see project folder)
+- **Project 3 — Cloud Database:** Azure MySQL Flexible Server (see project folder for connection details)
 
 ---
 
@@ -51,6 +53,10 @@ Each project lives in its own folder with a dedicated README, source files, and 
 - Provisioning and managing Linux Virtual Machines on Azure from scratch
 - Configuring and managing Nginx as a production web server via the command line
 - Securing cloud infrastructure with SSH key-based authentication
+- Provisioning and configuring a managed cloud database (Azure MySQL Flexible Server)
+- Designing relational database schemas with proper constraints and data integrity
+- Connecting to cloud databases visually (VS Code SQLTools) and programmatically (Python/PyMySQL)
+- Securing cloud databases with firewall rules, IP whitelisting, and environment variables
 - Documenting cloud projects professionally for a developer portfolio
 
 ---
